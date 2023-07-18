@@ -10,7 +10,9 @@
 body{
   font-family: "Noto Serif";
   color: var(--secondary);
+  background-color:#F6F6EB;
 }
+
 .App{
   max-width: 960px;
   margin: 0 auto;
@@ -93,7 +95,7 @@ label:hover{
   min-height: 100%;
   max-width: 110%;
   position:absolute;
-  box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
+  box-shadow: 3px 5px 7px var(--secondary);
   top:0;
   left:0;
 }
