@@ -1,3 +1,5 @@
+import ImageGrid from "./comps/ImageGrid";
+import Modal from "./comps/Modal";
 import Title from "./comps/Title";
 import UploadForm from "./comps/UploadForm";
 
@@ -7,6 +9,8 @@ function App() {
    
    <Title/>
    <UploadForm/>
+   <ImageGrid/>
+   <Modal/>
     </div>
   );
 }

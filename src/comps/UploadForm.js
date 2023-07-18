@@ -6,7 +6,7 @@ export default function UploadForm() {
     const [file,setFile] = useState(null);
     const [error,setError] = useState(null);
 
-    const types=['image/png','image/jpeg'];
+    const types=['image/png','image/jpeg' ];
   
   const changeHandler=(e)=>{
 
@@ -31,7 +31,7 @@ export default function UploadForm() {
         <div className='output'>
             { error && <div className='error'> {error} </div>}
             { file && <div>{file.name}</div>}
-            {file && <ProgressBar file={file} setFile={setFile}/>}
+            { file && <ProgressBar file={file} setFile={setFile}/>}
         </div>
     </form>
 
